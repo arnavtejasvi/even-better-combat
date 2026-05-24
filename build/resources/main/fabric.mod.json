@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "evenbettercombat",
+  "version": "1.0.0",
+  "name": "Even Better Combat",
+  "description": "Tracks kill streaks and deaths for Donut SMP. Shows a HUD overlay and announces streak milestones.",
+  "authors": [
+    "arnav"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.arnav.evenbettercombat.EvenBetterCombatClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "evenbettercombat.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
