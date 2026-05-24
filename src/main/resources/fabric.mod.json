@@ -3,7 +3,7 @@
   "id": "evenbettercombat",
   "version": "${version}",
   "name": "Even Better Combat",
-  "description": "Tracks kill streaks and deaths on any server. Shows a HUD overlay and announces streak milestones.",
+  "description": "Tracks kill streaks and deaths. Shows a HUD overlay and announces streak milestones.",
   "authors": [
     "arnav"
   ],
